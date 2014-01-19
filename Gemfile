@@ -1,4 +1,4 @@
-source 'https://rubygems.org'
-
-# Specify your gem's dependencies in foundation.gemspec
+require 'rubygems' 
+require 'bundler' 
+Bundler.setup(:default)
 gemspec
